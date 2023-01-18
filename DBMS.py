@@ -48,8 +48,8 @@ def add_details():
             pass
         c=c+1
 
-def addBed():
-    for i in range(10):
+def addBed(n):
+    for i in range(n):
         bed.child(str(i)).set("Empty")
 
 
